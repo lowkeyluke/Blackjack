@@ -179,8 +179,6 @@ printScores()
 name = input("Welcome to lowkeyluke's BlackJack! What's your name?")
 player1 = Player(name)
 dealer1 = Dealer("THE DEALER")
-if name == "Selena":
-    print("Welcome back princess!<3")
 if name == "Luke":
     print("Welcome back Master!")
 else:
